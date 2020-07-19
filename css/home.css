@@ -1,0 +1,190 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital@1&family=Roboto&family=Sofia&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+
+:root{
+	--light-gray: #2b3032a1;
+	--primary-color: #45ccb3;
+	--border: #2b3032a1;
+	--text-color: #ff686b;
+	--roboto: "Roboto",sans-serif;
+	--gugi: "Gugi",cursive;
+	--sofia: "Sofia",cursive;
+
+	--bggradient: linear-gradient(to bottom, #07db14, #9af723);
+	--Lobster: "lobster", cursive;
+}
+
+.primary-color{
+	color: var(--primary-color);
+}
+
+.bg-primary-color{
+	background-color: var(--primary-color)!important;
+}
+
+.text-color{
+	color: var(--text-color);
+}
+
+.font-roboto{
+	font-family: var(--roboto);
+}
+
+.lightblue{
+	color: lightblue;
+}
+
+
+
+header{
+	background-color:var(--primary-color);
+	font-family: var(--roboto);
+}
+
+header .site-title{
+	font-family: var(--gugi);
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item{
+	font-size: 0.7em;
+}
+
+.header-links a{
+	font-size: 0.9em;
+	text-decoration:none;
+	color: white;
+}
+
+.navbar-nav{
+	padding:0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+	font-size:0.9em;
+	color: var(--light-gray)!important;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding:0 1.3em;
+}
+
+.navbar-nav .basket-icon{
+	margin-right: 6.5rem !important;
+}
+
+
+/* improvise */
+
+.section-3 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: var(--primary-color);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+  font-family: var(--sofia);
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: white;
+  font-size: 3vmin;
+}
+
+.section-3 .desktop {
+  background: white;
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 2vmin;
+}
+
+/* Section Team */
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+  font-family: var(--Lobster);
+}
+
+.section-4 .team {
+  padding: 4vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 30px;
+  width: 80%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #9af723;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
